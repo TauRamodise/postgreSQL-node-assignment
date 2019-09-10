@@ -1,0 +1,11 @@
+create database Umuzi;
+
+create table Visitors(
+    Visitor_ID serial PRIMARY KEY,
+    Visitor_Name VARCHAR(50) NOT NULL,
+    Visitor_Age INT NOT NULL,
+    Date_Of_Visit VARCHAR NOT NULL,
+    Time_Of_Visit VARCHAR NOT NULL,
+    Name_Of_Person_That_Assisted VARCHAR(50) NOT NULL,
+    Comments VARCHAR(200) NOT NULL
+);

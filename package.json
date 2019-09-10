@@ -1,0 +1,17 @@
+{
+  "name": "postgres_node.js_assignment",
+  "version": "1.0.0",
+  "description": "Back-end service that will help capture basic information about prospective students who come to inquire here at Umuzi.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodejs": "^0.0.0",
+    "pg": "^7.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Ferronique May",
+  "license": "ISC"
+}
